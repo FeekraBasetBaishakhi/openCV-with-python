@@ -13,3 +13,4 @@ time_till = deadline_date - today_date
 hours_till = int(time_till.total_seconds() / 60 / 60)  # FeekraBasetBaishakhi
 
 print(f"Dear User! Time remaining for your goal {goal} is {hours_till} hours")  # int provided for full number
+
